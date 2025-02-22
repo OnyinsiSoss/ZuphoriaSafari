@@ -1,0 +1,68 @@
+@font-face {
+    font-family: angella;
+    src: url(./Angella.otf);
+}
+
+.card2 {
+    background-image: url(../../assets/lil-man.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 100px;
+    background-color: #ffffff;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 3.22%, rgba(0, 0, 0, .7) 67.05%), transparent;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.info-card h1 {
+    text-align: center;
+    font-family: angella;
+    color: white;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px;
+    text-transform: capitalize;
+}
+
+.info-card p {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    color: #ffffff;
+    padding: 30px;
+    margin: 0 200px;
+
+}
+
+.info-card .btn {
+    color: white;
+    font-family: "open sans", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.info-card .btn:hover {
+    transition: .6s;
+    border: 2px solid #748d1ab2;
+    background-color: transparent;
+}

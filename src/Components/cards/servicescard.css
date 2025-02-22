@@ -1,0 +1,93 @@
+@font-face {
+    font-family: angella;
+    src: url(./Angella.otf);
+}
+
+
+.cards {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: center;
+}
+
+.card11 {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3)),url(../../assets/pic-33.jpg) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin: 18px;
+    overflow: hidden;
+}
+
+.card22 {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3)),url(../../assets/Pic-31.JPG) ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 18px;
+    overflow: hidden;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3)),url(../../assets/silhouette-of-turkana-woman.jpg) ;
+    background-position: center;
+    border-radius: 5px;
+    margin: 18px;
+    overflow: hidden;
+}
+
+.carde {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.carde h1 {
+    text-align: center;
+    font-family: angella;
+    color: white;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px;
+    text-transform: capitalize;
+}
+
+.carde p {
+    font-family: "open sans", sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+.carde .btn {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.carde .btn:hover {
+    color: #1f1615;
+    transition: .6s;
+    border: 2px solid #1f1615;
+    background-color: white;
+}
+

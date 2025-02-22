@@ -1,0 +1,87 @@
+@font-face {
+    font-family: angella;
+    src: url(Angella.otf);
+}
+
+@font-face {
+    font-family: Sebastian Bobby;
+    src: url('//static.showit.co/file/VDZsYn7-RWqTTvl0lAEI8g/shared/sebastian_bobby-webfont.woff');
+}
+
+.card3 {
+    display: flex;
+     background: url(../../assets/Pic-44.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.call-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6efe9c9;
+    margin: 90px 180px ;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 11px #00000024;
+    opacity: .72;
+    gap: 20px;
+}
+
+.banner1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.call-card p {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #2b3537;
+    padding: 10px;
+    margin: 0 100px;
+
+}
+
+.call-card .btn {
+    color: #ccc;
+    font-family: "open sans", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    background-color: #415154;
+
+}
+
+.call-card .btn:hover {
+    transition: .6s;
+    border: 2px solid #415154;
+    background-color: transparent;
+    color: #415154;
+}
+
+.call-card h1 {
+    text-align: center;
+    font-family: Sebastian Bobby;
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px;
+    text-transform: capitalize;
+}

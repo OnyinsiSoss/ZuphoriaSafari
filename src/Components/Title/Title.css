@@ -1,0 +1,23 @@
+@font-face {
+    font-family: angella;
+    src: url(../../assets/Angella.otf);
+}
+
+.title, h3{
+    text-align: center;
+    color: #001202;
+    font-size: 45px;
+    font-family: angella;
+    font-weight:100;
+}
+
+
+.title h1{
+
+    font-size: 38px;
+    font-family: Analogue Regular;
+    color: #001202;
+    margin:15px;
+    text-transform: capitalize ;
+}
+
